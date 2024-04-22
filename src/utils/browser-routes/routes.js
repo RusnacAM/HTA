@@ -5,7 +5,7 @@ import AboutPage from "../../pages/about";
 
 const Router = () => (
     <Routes>
-        <Route path="/" element={<PortalLayout />}>
+        <Route element={<PortalLayout />}>
             <Route index element={<HomePage />} />
             <Route path="about" element={<AboutPage />} />
         </Route>
