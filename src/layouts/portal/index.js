@@ -1,11 +1,12 @@
 import {Outlet} from "react-router-dom";
+import Navbar from "../../components/navbar";
 
 const PortalLayout = () => {
     return (
-        <div className="text-3xl font-bold">
-            <h1>NAV BAR</h1>
+        <div className="font-montserrat text-base font-normal">
+            <Navbar />
             <Outlet />
-            <h1>FOOTER</h1>
+            {/*<h1>FOOTER</h1>*/}
         </div>
     )
 }
