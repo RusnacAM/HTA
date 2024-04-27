@@ -7,6 +7,7 @@ const Router = () => (
     <Routes>
         <Route element={<PortalLayout />}>
             <Route index element={<HomePage />} />
+            <Route index element={<HomePage />} />
             <Route path="about" element={<AboutPage />} />
         </Route>
     </Routes>
