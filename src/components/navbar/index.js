@@ -1,7 +1,7 @@
 import {useState} from "react";
 import {navbarItems} from "./navItems.data";
 import {AiOutlineClose, AiOutlineMenu} from "react-icons/ai";
-import {NavLink} from "react-router-dom";
+import {Link, NavLink} from "react-router-dom";
 import LanguageDropdown from "./components/LanguageDropdown";
 
 const Navbar = () => {
@@ -14,10 +14,12 @@ const Navbar = () => {
     return (
         <div className="bg-black w-full h-20 flex flex-row px-4 justify-between items-center">
             {/* Logo */}
-            <div className="flex flex-col justify-center items-center">
-                <h1 className='text-3xl font-bold text-teal-900 ms-24'>HTA</h1>
-                <p className='text-base  text-white ms-24'>trafficking awareness</p>
-            </div>
+            <Link to={"/"}>
+                <div className="flex flex-col justify-center items-center">
+                    <h1 className='text-3xl font-bold text-teal-900 ms-24'>HTA</h1>
+                    <p className='text-base  text-white ms-24'>trafficking awareness</p>
+                </div>
+            </Link>
 
             {/* Desktop Navigation */}
             <ul className="hidden md:flex">
@@ -62,7 +64,11 @@ const Navbar = () => {
                         key={item.id}
                         className='text-xl font-semibold text-white p-4 aria-[current=page]:text-teal-900 hover:text-teal-900 cursor-pointer border-b-2 border-teal-900 m-4'
                     >
-                        {item.itemLabel}
+                        <NavLink
+                            to={item.itemLink}
+                        >
+                            {item.itemLabel}
+                        </NavLink>
                     </li>
                 ))}
 

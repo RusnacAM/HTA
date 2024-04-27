@@ -7,5 +7,6 @@ function MenuItem(id, itemLabel, itemLink) {
 
 export const navbarItems = [
     new MenuItem(1, "Home", "/"),
-    new MenuItem(2, "About", "/about")
+    new MenuItem(2, "News", "/news"),
+    new MenuItem(3, "About", "/about")
 ]

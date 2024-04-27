@@ -1,4 +1,3 @@
-import NewsContainer from "./NewsContainer";
 import CommunityExperienceContainer from "./CommunityExperienceContainer";
 import Button from "../../../atoms/buttons";
 import ArrowRight from "../../../atoms/icons/light/ArrowRight";
