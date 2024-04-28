@@ -1,6 +1,6 @@
 import ArrowRight from "../../atoms/icons/light/ArrowRight";
 import Button from "../../atoms/buttons";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import Popup from "./components/Popup";
 import NewsContainer from "./components/NewsContainer";
 import {newsData} from "./news.data";
@@ -17,6 +17,10 @@ const NewsFeed = () => {
     const handleClosePopup = () => {
         setOpen(false)
     }
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
 
     return (
         <div className="">
