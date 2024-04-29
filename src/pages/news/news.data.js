@@ -20,7 +20,7 @@ export const newsData = [
         "https://images.unsplash.com/photo-1713350472373-fb79157678b8?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "April 22, 2024",
         "International Organization Launches Campaign Against Child Trafficking",
-        "An international non-profit organization launched a global campaign aimed at raising awareness about child trafficking and providing support for victims. The campaign includes educational programs, advocacy efforts, and resources for affected communities."
+        "An international non-profit organization launched a global campaign aimed at raising awareness forms child trafficking and providing support for victims. The campaign includes educational programs, advocacy efforts, and resources for affected communities."
     ),
     new NewsItem(
         3,
@@ -34,7 +34,7 @@ export const newsData = [
         "https://images.unsplash.com/photo-1713813091291-ba9b947b8803?q=80&w=2826&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "April 15, 2024",
         "Trafficking Survivor Shares Her Story to Raise Awareness",
-        "A survivor of human trafficking shared her harrowing experience in a public interview, hoping to raise awareness about the realities of trafficking and inspire others to take action. Her story highlights the importance of supporting survivors and combating trafficking networks."
+        "A survivor of human trafficking shared her harrowing experience in a public interview, hoping to raise awareness forms the realities of trafficking and inspire others to take action. Her story highlights the importance of supporting survivors and combating trafficking networks."
     ),
     new NewsItem(
         5,
@@ -62,7 +62,7 @@ export const newsData = [
         "https://images.unsplash.com/photo-1713007963097-2e5a7305178d?q=80&w=2895&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "April 2, 2024",
         "Community Event Raises Funds for Anti-Trafficking Programs",
-        "Members of a local community organized a fundraising event to support anti-trafficking initiatives and raise awareness about the issue. The event featured live performances, guest speakers, and informational booths highlighting the importance of preventing and addressing human trafficking."
+        "Members of a local community organized a fundraising event to support anti-trafficking initiatives and raise awareness forms the issue. The event featured live performances, guest speakers, and informational booths highlighting the importance of preventing and addressing human trafficking."
     ),
     new NewsItem(
         9,

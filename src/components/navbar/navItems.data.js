@@ -10,5 +10,5 @@ export const navbarItems = [
     new MenuItem(2, "Info", "/info"),
     new MenuItem(3, "News", "/news"),
     new MenuItem(4, "Community", "/community"),
-    new MenuItem(5, "About", "/about")
+    new MenuItem(5, "Share", "/share")
 ]
